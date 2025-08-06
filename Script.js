@@ -44,8 +44,7 @@ function contaFrequencias(palavras) {
       }
     }
   }
-
-  return frequencias;
+    return frequencias;
 }
 function tiraPalavrasRuins(palavras) {
   const PALAVRAS_RUINS = new Set(["para", "uma", "nós"]);
