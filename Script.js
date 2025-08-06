@@ -23,25 +23,15 @@ function processaTexto(texto) {
     return frequencias[p2] - frequencias[p1];
   }
 
-  console.log(ordenadas);
-
-  return palavras;
-}
-
-  let frequencias = [];
-  for (let i of palavras) {
-    frequencias[i] = 0;
-  for (let i in palavras) {
-     if (palavras[i] == palavras[j]) {
-    frequencias[i]++;
-      }
-  }
+  return ordenadas.slice(0, 10);
 }
 
 function contaFrequencias(palavras) {
   let frequencias = {};
+
   for (let i of palavras) {
     frequencias[i] = 0;
+
     for (let j of palavras) {
       if (i == j) {
         frequencias[i]++;
@@ -51,7 +41,3 @@ function contaFrequencias(palavras) {
 
   return frequencias;
 }
-
-  console.log(frequencias);
-
-  return palavras;
