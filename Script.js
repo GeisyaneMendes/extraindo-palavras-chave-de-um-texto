@@ -9,5 +9,5 @@ function mostraPalavrasChave() {
 
   const palavrasChave = texto.split(" ");
 
-  campoResultado.textContent = palavras.join(", ");
+  campoResultado.textContent = palavrasChave.join(", ");
 }
