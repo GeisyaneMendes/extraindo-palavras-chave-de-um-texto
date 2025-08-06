@@ -50,4 +50,3 @@ function contaFrequencias(palavras) {
   console.log(frequencias);
 
   return palavras;
-}
