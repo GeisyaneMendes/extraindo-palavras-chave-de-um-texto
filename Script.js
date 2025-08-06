@@ -34,6 +34,7 @@ let ordenadas = Object.keys(frequencias).sort();
       }
   }
 }
+
 function contaFrequencias(palavras) {
   let frequencias = {};
 
