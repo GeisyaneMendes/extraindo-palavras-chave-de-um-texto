@@ -7,5 +7,7 @@ function mostraPalavrasChave() {
 
   const campoResultado = document.querySelector("#resultado-palavrachave");
 
-  campoResultado.textContent = texto;
+  const palavras = texto.split(" ");
+
+  campoResultado.textContent = palavras;
 }
