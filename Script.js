@@ -1,4 +1,4 @@
-const botaoMostraPalavras = document.querySelector("#resultado-palavrachave").value;
+const botaoMostraPalavras = document.querySelector("#resultado-palavrachave");
 
 botaoMostraPalavras.addEventListener("click", mostraPalavrasChave);
 
