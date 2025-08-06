@@ -22,7 +22,7 @@ function processaTexto(texto) {
     frequencias[i]++;
       }
   }
-
+}
   console.log(frequencias);
 
   return palavras;
