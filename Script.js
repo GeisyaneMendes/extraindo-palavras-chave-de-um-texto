@@ -33,7 +33,6 @@ palavras = tiraPalavrasRuins(palavras);
 
 function contaFrequencias(palavras) {
   let frequencias = {};
-
   for (let i of palavras) {
     frequencias[i] = 0;
     for (let j of palavras) {
