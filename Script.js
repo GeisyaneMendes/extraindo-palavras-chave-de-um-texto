@@ -20,6 +20,7 @@ for (let i in palavras) {
 }
 
 palavras = tiraPalavrasRuins(palavras);
+
   const frequencias = contaFrequencias(palavras);
 
   let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
