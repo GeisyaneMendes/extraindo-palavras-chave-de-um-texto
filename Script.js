@@ -16,11 +16,16 @@ function processaTexto(texto) {
   let palavras = texto.split(/\P{L}+/u);
 
   const frequencias = contaFrequencias(palavras);
+
   let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
 
-let ordenadas = Object.keys(frequencias).sort();
+  function ordenaPalavra(p1, p2) {
+    return frequencias[p2] - frequencias[p1];
+  }
 
-  // código omitido
+  console.log(ordenadas);
+
+  return palavras;
 }
 
   let frequencias = [];
