@@ -17,9 +17,7 @@ function processaTexto(texto) {
 
   const frequencias = contaFrequencias(palavras);
 
-
 let ordenadas = Object.keys(frequencias).sort();
-
 
   // código omitido
 }
